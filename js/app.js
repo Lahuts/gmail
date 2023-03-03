@@ -12,6 +12,5 @@ document.addEventListener("DOMContentLoaded", (e) => {
     localStorage.setItem("prenom", prenom);
     localStorage.setItem("psw", password);
     localStorage.setItem("mail", mail);
-    console.log(document);
   });
 });
