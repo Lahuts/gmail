@@ -1,0 +1,61 @@
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+.inscription-field{
+    margin-bottom: 2rem;
+}
+.inscription-field>form{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+input{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: rgb(240, 240, 240);
+    border-bottom: thin solid rgb(198, 198, 198);
+}
+.inscrip{
+    height: 100vh;
+    margin: auto;
+    scroll-margin-top: 8rem;
+}
+.inscrip>p{
+    max-width: 30%;
+    text-align: center;
+    margin: 2rem auto auto auto;
+}
+.inscription-field{
+    max-width: 50%;
+    margin: 3rem auto auto auto;
+    border: thin solid rgb(184, 184, 184);
+    border-radius: .5rem;
+}
+.inscription-field>legend{
+    font-size: 2.2rem;
+    font-weight: 300;
+    padding: 1rem;
+}
+.inscription-field>form>input[type="submit"],#connection{
+    background-color:rgb(56, 108, 253);
+    color: #fff;
+    max-width: 100%;
+    margin: 1rem auto auto auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.6rem;
+}
+
+.connec{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
