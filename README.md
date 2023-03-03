@@ -4,7 +4,7 @@ Maquette de la page d'accueil de Gmail, réaliser en 2 examplaire avec PHP et SQ
 ## Installation
 
 ## Maquette HTML CSS
-[Cliquer ici pour voir la maquette ](https://lahuts.github.io/maquette-gmail/)
+[Cliquer ici pour voir la maquette ](https://lahuts.github.io/gmail/)
 ### Prérequis
 - PHP 8.0
 
