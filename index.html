@@ -7,43 +7,44 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/inscription.css">
-    <title>Document</title>
+    <title>Gmail : inscription</title>
 </head>
 <body>
     <header>
-        <a href="" class="gm_logo"><img src="asset/gmail.png" alt="logo_gmail"></a>
+        <a href="index.html" class="gm_logo"><img src="asset/gmail.png" alt="logo_gmail"></a>
         <nav>
             <ul>
-                <li><a href="">POUR LES PROS</a></li>
+                <li><a href="index.html">POUR LES PROS</a></li>
                 <li><a href="pages/connection.html">CONNEXION</a></li>
                 <li><a href="#inscrip">CRÉER UN COMPTE</a></li>
             </ul>
         </nav>
     </header>
-    <section class="HeroBanner">
+    <section class="HeroBanner" aria-label="page d'accueil">
         <h1>Retrouvez la fluidité et la <br> simplicité de Gmail sur <br> tous vos appareil</h1>
-        <a href="" class="btn-hb">CRÉER UN COMPTE</a>
-        <span class="go-down"><img src="asset/arrow.png" alt=""></span>
+        <a href="#inscrip" class="btn-hb" aria-label="bouton vers la creation de compte">CRÉER UN COMPTE</a>
+       
     </section>
-    <section class="inscrip" id="inscrip">
+    <section class="inscrip" id="inscrip" aria-label="section inscription">
         <h2>Une boîte de reception <br> entièrement repensée</h2>
         <p>avec les nouveaux onglets personnalisables, repérez immédiatement les nouveaux messages et choissisez ceux que vous souhaitez lire en priorité.</p>
 
-        <fieldset class="inscription-field">
+        <fieldset class="inscription-field" aria-label="champs d inscription">
             <legend>Créer un compte</legend>
             <form action="pages/connection.html">
                 <label for="nom">Nom <sup>*</sup></label>
-                <input type="text" placeholder="Votre nom" id="nom">
+                <input type="text" placeholder="Votre nom" id="nom" aria-label="nom">
                 <label for="prenom">Prénom <sup>*</sup></label>
-                <input type="text" placeholder="Votre prenom" id="prenom">
+                <input type="text" placeholder="Votre prenom" id="prenom" aria-label="prenom">
                 <label for="mail">Mail <sup>*</sup></label>
-                <input type="email" placeholder="votre mail" id="mail">
+                <input type="email" placeholder="votre mail" id="mail" aria-label="email">
                 <label for="psw">Choisir votre mot de passe <sup>*</sup></label>
-                <input type="password" placeholder="Mot de passe" id="psw">
-                <input type="submit" value="VALIDER VOTRE COMPTE" id="val">
+                <input type="password" placeholder="Mot de passe" id="psw" aria-label="password">
+                <input type="submit" value="VALIDER VOTRE COMPTE" id="val" aria-label=" envoyer">
             </form>
         </fieldset>
-        <a href="#inscrip" class="go-down"><img src="../asset/arrow.png" alt=""></span>
+        
+        <a href="#inscrip" class="go-down"><img src="asset/arrow.png" alt="bouton descendre vers l inscription" aria-label="descendre vers l'inscription"></a>
     </section>
     <script src="js/app.js"></script>
 </body>
